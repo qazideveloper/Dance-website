@@ -1,0 +1,162 @@
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
+    text-align: center;
+    margin: 9px;
+}
+#navbar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: -9px;
+    height: 59px;
+    justify-content: center;
+    text-align: center;
+    width: 120%;
+
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+}
+#navbar li a:hover{
+    color:blue;
+}
+#navbar li {
+    list-style: none;
+}
+
+#introsection{    
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+    color: wheat;
+    width: 120%;
+    background: url(../static/introsec.jpg.jpg) center/cover no-repeat;
+    margin: 9px -8px;
+}
+#introsection h2{
+    text-align: center;
+    justify-content: center;
+    font-size: 1 rem;
+    font-family: Georgia, serif;
+}
+#missionsection{
+    height: 300px;
+    color: black;
+    background-color:black;
+    margin:-11px -8px;
+    width: 102%;
+}
+#missionsection h2{
+    text-align: center;
+    font-size: 1 rem;
+    color:white;
+
+}
+#introsection div.small{
+    text-align: center;
+    font-size: 0.5 rem;
+    justify-content: center;
+
+
+}
+#sponsorssection h2{
+    text-align: center;
+    font-size: 1 rem;
+    color: white;
+
+}
+#sponsorssection{
+    height: 300px;
+    background-color: rgb(203, 203, 228);
+    text-align: center;
+    color: wheat;
+    margin: -11px -199px;
+    background-color: black;
+}
+#footer{
+    height: 36px;
+    background-color: black;
+    text-align: center;
+    color: wheat;
+}
+*{
+    box-sizing: border-box;
+    margin: 0 px ;
+    padding:0 px;
+}
+.card{
+    display: inline-block;
+    height: 191px;
+    margin: 5px;
+    width: 32%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+.card h3{
+    height: 199px;
+    margin: -57px 68px;
+    width: 174%;
+    padding: 65px;
+}
+#logo{
+    display: flex;
+    margin: -12px -10px;
+    padding: 10px;
+}
+#logo img{
+    height: 45px;
+    padding: 0px 0;
+    filter: invert(1);
+    margin: -17px 0px;
+
+}
+.card-box{
+    display: flex;
+    padding: -79px 2px;
+    margin: 100;
+    justify-content: center;
+    flex-direction: row;
+    height: -20%;
+    width: 100%;
+    margin: -105px auto;
+}
+.card-img img{
+    height: inherit;
+}
+.card-img{
+    height: 136px;
+}
+.card-content p{
+    padding: 18px;
+}
+#sponsor{
+    height: 100px;
+    padding: 2px;
+    margin: 58px;
+
+}
+.spimg{
+    height: 100px;
+    padding: 0px 20px;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 10px;
+    background-color: white;
+    color: black;
+    margin: 11px -24px;
+    border: 2px solid black;
+
+}

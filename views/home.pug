@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+
+block content
+  section#introsection  
+      h2 HARRY DANCE ACADEMY
+      div.small EAT SLEEP DANCE REPEAT
+  section#missionsection 
+       h2 our mission 
+       div.card
+        h3 Dance perfection 
+        div.card-box
+         div.card-img
+          img(src="/static/img/logo01.jpg")
+         div.card-content
+          p This is a dance website                   
+       div.card
+        h3 Dance Techniques 
+        div.card-box
+         div.card-img
+          img(src="/static/img/logo02.jpg")
+         div.card-content
+          p This is a dance website 
+       div.card 
+        h3 Dance Coaching 
+        div.card-box
+         div.card-img
+          img(src="/static/img/logo03.jpg")
+         div.card-content
+          p This is a dance website 
+  section#sponsorssection
+      h2 our sponsors
+      div#sponsor
+       img(src="/static/img/sp1.png" alt="sponsor image" class="spimg")
+       img(src="/static/img/sp 2.png" alt="sponsor image" class="spimg")
+       img(src="/static/img/sp 3.png" alt="sponsor image" class="spimg")
+       img(src="/static/img/sp 4.png" alt="sponsor image" class="spimg")
+       img(src="/static/img/sp 5.png" alt="sponsor image" class="spimg")
